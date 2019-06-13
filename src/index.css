@@ -13,9 +13,31 @@ body {
   background-color: #d2c8c8;
   color: white;
 }
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-top: solid 3px #0a065d;
+  border-bottom: solid 3px #0a065d;
+}
+
+.name-search {
+  margin-left: 6rem;
+  margin-bottom: 3rem;
+}
+
+.contact-cart {
+  margin-top: 5rem;
+  margin-right: 5rem;
+}
 
 .name {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: normal;
   font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.contact {
+  margin-top: 0;
 }
