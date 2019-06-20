@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function NavBar() {
   return (
     <section>
-      <ul>
+      <ul className="flowers-menu">
         <li>
           <Link to="/roses">Roses</Link>
         </li>

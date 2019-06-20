@@ -3,8 +3,8 @@ import React from 'react'
 export default function Header() {
   return (
     <header>
-      <div>
-        {/* <hr /> */}
+      <hr />
+      <div className="header-container">
         <section className="name-search">
           <h1 className="name">Violet Dawn</h1>
           <input type="search" />
@@ -13,8 +13,8 @@ export default function Header() {
           <h4 className="contact">CONTACT INFO</h4>
           <div>SHOPPING CART"link to"</div>
         </section>
-        {/* <hr /> */}
       </div>
+      <hr />
     </header>
   )
 }
