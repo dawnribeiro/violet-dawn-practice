@@ -10,7 +10,11 @@ export default function Header() {
           <input type="search" />
         </section>
         <section className="contact-cart">
-          <h4 className="contact">CONTACT INFO</h4>
+          <p className="contact">
+            306 Jefferson Ave S<br />
+            Oldsmar, FL 34677
+            <br />
+          </p>
           <div>SHOPPING CART"link to"</div>
         </section>
       </div>

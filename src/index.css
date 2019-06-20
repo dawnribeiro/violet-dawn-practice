@@ -26,7 +26,7 @@ hr {
 
 .name-search {
   margin-left: 6rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .contact-cart {
@@ -39,10 +39,12 @@ hr {
   font-weight: normal;
   font-style: italic;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .contact {
   margin-top: 0;
+  font-size: 1.25rem;
 }
 
 .flowers-menu li {
@@ -60,8 +62,12 @@ hr {
 
 .flowers-menu :nth-child(1) {
   padding-top: 30px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .flowers-menu :nth-child(5) {
   padding-bottom: 30px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
