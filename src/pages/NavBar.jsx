@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <section>
       <ul className="flowers-menu">
-        <li>
+        <li className="rose-container">
           <Link to="/roses">Roses</Link>
         </li>
         <li>
