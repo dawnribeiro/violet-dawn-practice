@@ -15,15 +15,17 @@ class App extends Component {
       <>
         <Header />
         <Router>
-          <NavBar />
-          <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route exact path="/roses" component={Roses} />
-            <Route exact path="/lilies" component={Lilies} />
-            <Route exact path="/tulips" component={Tulips} />
-            <Route exact path="/sunflowers" component={Sunflowers} />
-            <Route exact path="/carnations" component={Carnations} />
-          </Switch>
+          <main className="main-container">
+            <NavBar />
+            <Switch>
+              <Route exact path="/" component={HomePage} />
+              <Route exact path="/roses" component={Roses} />
+              <Route exact path="/lilies" component={Lilies} />
+              <Route exact path="/tulips" component={Tulips} />
+              <Route exact path="/sunflowers" component={Sunflowers} />
+              <Route exact path="/carnations" component={Carnations} />
+            </Switch>
+          </main>
         </Router>
       </>
     )

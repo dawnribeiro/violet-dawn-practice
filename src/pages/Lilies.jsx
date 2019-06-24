@@ -3,7 +3,7 @@ import React from 'react'
 export default function Lilies() {
   return (
     <section>
-      <h1>HI</h1>
+      <h1>Hi lilies</h1>
     </section>
   )
 }

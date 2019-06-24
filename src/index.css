@@ -75,3 +75,7 @@ hr {
 .rose-container {
   padding-top: 30px !important;
 }
+
+.main-container {
+  display: flex;
+}

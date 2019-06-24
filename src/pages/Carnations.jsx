@@ -3,7 +3,9 @@ import React from 'react'
 export default function Carnations() {
   return (
     <section>
-      <h1>HI there</h1>
+      <div>
+        <h1>Hi Carnations</h1>
+      </div>
     </section>
   )
 }
